@@ -83,3 +83,52 @@ a:HOVER{
 	position: relative;
 	top: 3px;
 }	
+
+#top_search{
+	margin-top: 0px;
+	padding: 5px 0px 5px 10px;
+	display: block;
+	height:100px;
+	background-color: #006699;
+}
+
+#recherche{
+	padding-top:10px;
+	margin-top:20px;
+	height:25px;
+}
+
+#category{
+	height:15px;
+}
+
+
+#keywords{
+	
+	height:25px;
+}
+
+#button {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display:table-cell;
+    font-size: 16px;
+    margin:4px 2px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#button_active{
+	position: relative;
+	top: 3px;
+}
