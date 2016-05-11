@@ -1,8 +1,12 @@
-@CHARSET "UTF-8";
-//css for header
-//css for footer
+
+*{
+	margin: 10px;
+	padding: 0px;
+	list-style-type: none;
+}
+
 body {
-	font-family: 'arial','sans-sherif';	
-	background-color: "#ff0000";
+	font-family: 'arial','sans-sherif';
+	background-color: #ff0000;
 }
 	
