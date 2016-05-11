@@ -1,3 +1,8 @@
 @CHARSET "UTF-8";
 //css for header
 //css for footer
+body {
+	font-family: 'arial','sans-sherif';	
+	background-color: #f3f3f3;
+}
+	
