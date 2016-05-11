@@ -3,7 +3,7 @@
 function headerCode(){
 	echo'
 		<header id="main_header">
-			<h1><a href="index.php">Smoub</a></h1>
+			<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
 			<br>
 			<div>
 				<h2><a class="button" href="following.php">Following</a></h2>
