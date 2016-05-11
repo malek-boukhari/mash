@@ -9,7 +9,9 @@ include ('includes/html_codes.php');
 	
 </head>
 <body>
-	<?php headerCode();?>
-	<?php footerCode();?>
+	<div>
+		<?php headerCode();?>
+		<?php footerCode();?>
+	</div>
 </body>
 </html>
