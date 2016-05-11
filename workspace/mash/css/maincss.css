@@ -11,7 +11,8 @@ body {
 	text-align:center;
 	color:white;
 	background-image: url(images/littleplanet.jpg);
-	background-repeat: inheritg
+	background-repeat: no-repeat;
+	background-size:1600px 800px;
 }
 
 #main_footer{
