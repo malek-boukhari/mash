@@ -5,13 +5,12 @@
 function footerCode(){
 	echo '
 		<footer id="main_footer">
-			<table>
 				<tr>
-					<td><a href="https://www.facebook.com/shady.smaoui">Ifah YouTube</a></td>
-					<td><a href="https://www.facebook.com/shady.smaoui">Ifah Facebook</a></td>
-					<td><a href="https://www.facebook.com/shady.smaoui">Ifah Google+</a></td>
-				</tr>
-			</table>
+					<td><a href="https://www.facebook.com/shady.smaoui"> YouTube</a></td>
+					<td><a href="https://www.facebook.com/shady.smaoui"> Facebook</a></td>
+					<td><a href="https://www.facebook.com/shady.smaoui"> Google+</a></td>
+					<td> &copy</td>
+				</tr>		
 		</footer>
 	';
 }
