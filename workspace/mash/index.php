@@ -6,6 +6,7 @@
 <html lang="en">
 <head>
 	<title>site name</title>
+	<link style="stylesheet" href="css/maincss.css">
 	
 </head>
 <body>
