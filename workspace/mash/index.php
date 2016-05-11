@@ -9,7 +9,6 @@ include ('includes/html_codes.php');
 	
 </head>
 <body>
-	<h1>Hello world</h1>
 	<?php headerCode();?>
 	<?php footerCode();?>
 </body>

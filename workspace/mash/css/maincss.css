@@ -1,24 +1,37 @@
 
 *{
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 	list-style-type: none;
 }
 
 body {
 	font-family: 'arial','sans-sherif';
-	background-color: lightblue;
-	margin: 30px;
+	background-color: white;
 	text-align:center;
 	color:white;
 	background-image: url(images/littleplanet.jpg);
-	background-repeat: no-repeat;
-	background-size:1600px 800px;
+
+}
+#main_header{
+	margin-top:10px;
+	padding-buttom: 400px;
+	clear: both;
+	font-size:15px;
+	text-align: center;
+	color:white;
+	background-color: black;
+}
+h2,#main_header{
+	display:table-cell;
+}
+h1,#main_header{
+	color:black;
 }
 
 #main_footer{
 	margin-top:600px;
-	padding-buttom: 15px;
+	padding-buttom: 20px;
 	clear: both;
 	font-size:15px;
 	text-align: center;
@@ -29,8 +42,12 @@ body {
 a{
 	color:white;
 }
+
+
+a:HOVER{
+	color:white;
+}
 .button {
-	position: relative;
     background-color: white;
     color: black;
     border: 2px solid #555555;
@@ -40,8 +57,8 @@ a{
     display:table-cell;
     font-size: 16px;
     margin:4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
     cursor: pointer;
 }
 
