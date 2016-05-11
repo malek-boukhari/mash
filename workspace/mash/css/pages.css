@@ -1,6 +1,6 @@
 
 *{
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
 }
@@ -13,10 +13,10 @@ body {
 
 }
 
-div {
+div #banner {
 	margin-left:30px;
 	margin-right:30px;
-	height:100px;
+	height:80px;
 	width:auto;
 	text-align: center;
 }

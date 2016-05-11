@@ -13,10 +13,10 @@ body {
 	background-image: url(images/littleplanet.jpg);	
 }
 
-div {
-	margin-left:30px;
-	margin-right:30px;
-	height:100px;
+ #banner {
+	margin-left:80px;
+	margin-right:80.5px;
+	height:80px;
 	width:auto;
 	text-align: center;
 }
@@ -60,7 +60,7 @@ a:HOVER{
 	color:white;
 }
 .button {
-    background-color: white;
+    background-color: #ffffff;
     color: black;
     border: 2px solid #555555;
     padding: 16px 32px;
