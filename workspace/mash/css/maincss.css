@@ -21,10 +21,12 @@ body {
 	font-size:15px;
 	text-align: center;
 	color:white;
-	background-color: #fba067;
+	background-color: black;
 }
 
-
+a{
+	color:white;
+}
 .button{
 	-moz-box-shadow: 0px 1px 0px 0px #fed897;
 	-webkit-box-shadow: 0px 1px 0px 0px #fed897;
