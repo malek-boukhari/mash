@@ -12,6 +12,6 @@ include ('includes/html_codes.php');
 	<h1>Hello world</h1>
 	<h2 class="button">Start</h2>
 	<h2 class="button">Photos</h2>
-	
+	<?php footerCode();?>
 </body>
 </html>
