@@ -36,7 +36,6 @@ function headerCode(){
 		</div>
 	';
 }
-
 //Code for footer
 function footerCode(){
 	echo '
@@ -50,7 +49,6 @@ function footerCode(){
 		</footer>
 	';
 }
-
 //Creates Category <option>'s for search bar
 function createCategoryList(){
 	if( ctype_digit($_GET['category']) ){
@@ -158,5 +156,4 @@ function numberToCategory($n){
 	}
 	return $cat;
 }
-
 ?>
