@@ -26,7 +26,7 @@ function footerCode(){
 					<td><a href="https://www.facebook.com/shady.smaoui"> YouTube</a></td>
 					<td><a href="https://www.facebook.com/shady.smaoui"> Facebook</a></td>
 					<td><a href="https://www.facebook.com/shady.smaoui"> Google+</a></td>
-					<td> &copy</td>
+					<td>2016 &copy</td>
 				</tr>		
 		</footer>
 	';
