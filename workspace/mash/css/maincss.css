@@ -10,9 +10,15 @@ body {
 	background-color: white;
 	text-align:center;
 	color:white;
-	background-image: url(images/littleplanet.jpg);
-
+	background-image: url(images/littleplanet.jpg);	
 }
+
+div {
+	margin-left:30px;
+	margin-right:30px;
+	height:100px;
+}
+
 #main_header{
 	margin-top:10px;
 	padding-buttom: 400px;
@@ -20,13 +26,17 @@ body {
 	font-size:15px;
 	text-align: center;
 	color:white;
-	background-color: black;
+	background-color: #c0c0c0;
 }
 h2,#main_header{
 	display:table-cell;
+	width:auto;
+	margin:auto;
 }
 h1,#main_header{
 	color:black;
+	width:auto;
+	margin:auto;
 }
 
 #main_footer{
@@ -35,12 +45,12 @@ h1,#main_header{
 	clear: both;
 	font-size:15px;
 	text-align: center;
-	color:white;
-	background-color: black;
+	color:black;
+	background-color: #c0c0c0;
 }
 
 a{
-	color:white;
+	color:black;
 }
 
 
