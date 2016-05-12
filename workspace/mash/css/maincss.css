@@ -9,47 +9,18 @@ body {
 	background-color: white;
 	text-align:center;
 	color:white;
-	border: solid;
 }
+
 
  #banner {
-	margin-left:80px;
-	margin-right:80.5px;
-	height:80px;
-	width:auto;
-	text-align: center;
-	border: solid;
-}
+ position:relative;
+ margin-top:20px;
+height:100px;
+padding:20px 40px 20px 40px;
 
-#IDlogin {
-	margin-right:0px;
-	height:0px;
-	margin-top:20px;
-	width:auto;
-	border: solid;
-}
-
-#main_header{
-	margin-top:10px;
-	padding-buttom: 400px;
-	clear: both;
-	font-size:15px;
+	background-color: #ffff;
 	text-align: center;
-	color:white;
-	background-color: #ff6666;
-	border: solid;
-}
-h2,#main_header{
 	display:table-cell;
-	width:auto;
-	margin:auto;
-	border: solid;
-}
-h1,#main_header{
-	color:black;
-	width:auto;
-	margin:auto;
-	border: solid;
 }
 
 #main_footer{
@@ -59,21 +30,27 @@ h1,#main_header{
 	font-size:15px;
 	text-align: center;
 	color:#c0c0c0;
-	background-color: #ff6666;
+	background-color: #999999;
+}
+
+#menu{
+	margin-top: 30px;
 }
 
 a{
-	color:black;
+	color:#c0c0c0;
 }
 
 
 a:HOVER{
 	color:white;
 }
+
 .button {
-    background-color: #c0c0c0;
+    background-color: #efefef;
     color: black;
-    border: 2px solid #555555;
+    border-bottom: 2px solid #555555;
+    border-right: 1px solid #555555;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -96,17 +73,18 @@ a:HOVER{
 }	
 
 #top_search{
-	margin-top: 0px;
-	padding: 5px 0px 5px 10px;
+	margin-top: 10px; /*margin from banner*/
+	padding: 15px 10px 5px 10px;
 	display: block;
 	height:100px;
 	background-color: #cccccc;
+	border-bottom: solid  1px;
+	border-color: black;
 }
 
 #recherche{
-	padding-top:10px;
-	margin-top:20px;
-	height:25px;
+	padding-top:30px;
+	height:35px;
 }
 
 #category{
@@ -122,13 +100,14 @@ a:HOVER{
 #button {
     background-color: #c0c0c0;
     color: black;
-    height:40px;
-    border: 2px solid #555555;
-    padding: 10px 20px;
+    height:30px;
+    border-bottom: 2px solid #555555;
+    border-right: 1px solid #555555;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display:table-cell;
-    font-size: 16px;
+    font-size: 14px;
     margin:4px 2px;
     -webkit-transition-duration: 0.6s; /* Safari */
     transition-duration: 0.6s;
