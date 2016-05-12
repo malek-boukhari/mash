@@ -12,6 +12,13 @@ body {
 	background-image: url(images/littleplanet.jpg);	
 }
 
+h3,#main_header {
+	margin-right:30px;
+	height:20px;
+	padding-top:0px;
+	width:auto;
+}
+
  #banner {
 	margin-left:80px;
 	margin-right:80.5px;

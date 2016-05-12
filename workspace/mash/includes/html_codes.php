@@ -4,7 +4,12 @@ function headerCode(){
 	echo'
 		<header id="main_header">
 			<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
-			<div id="banner">
+			<h3><form align="right"><input type="text" placeholder="username"/>
+			<input type="text" placeholder="password"/>
+			<input type="submit" value="login"/>
+			<p><a href="">Forgot your password?</a></p></h3>
+			<br>
+			<div id="banner">			
 				<h2><a class="button" href="following.php">Following</a></h2>
 				<h2><a class="button" href="today.php">Today</a></h2>
 				<h2><a class="button" href="fashion.php">Fashion</a></h2>
@@ -16,12 +21,7 @@ function headerCode(){
 				<h2><a class="button" href="collectibles.php">Collectibles</a></h2>
 				<h2><a class="button" href="collectibles.php">Other</a></h2>
 			</div>
-			<div id="user">
-			<form>
-			<input type="text" placeholder="username"/>
-			<input type="text" placeholder="password"/>
-			<input type="submit" value="login"/>
-			<p><a href="">Forgot your password?</a></p>
+
 		</header>	
 	';
 	
