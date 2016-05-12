@@ -4,12 +4,14 @@ function headerCode(){
 	echo'
 		<header id="main_header">
 			<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
-			<h3><form align="right"><input type="text" placeholder="username"/>
-			<input type="text" placeholder="password"/>
-			<input type="submit" value="login"/>
-			<p><a href="">Forgot your password?</a></p></h3>
 			<br>
-			<div id="banner">			
+				<div id="IDlogin">
+					<form align="right"><input type="text" placeholder="username"/>
+					<input type="text" placeholder="password"/>
+					<input type="submit" id ="button" value="login"/>
+					<p><a href="">Forgot your password?</a></p>
+				</div>
+			<div id="banner">
 				<h2><a class="button" href="following.php">Following</a></h2>
 				<h2><a class="button" href="today.php">Today</a></h2>
 				<h2><a class="button" href="fashion.php">Fashion</a></h2>
