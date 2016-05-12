@@ -16,6 +16,12 @@ function headerCode(){
 				<h2><a class="button" href="collectibles.php">Collectibles</a></h2>
 				<h2><a class="button" href="collectibles.php">Other</a></h2>
 			</div>
+			<div id="user">
+			<form>
+			<input type="text" placeholder="username"/>
+			<input type="text" placeholder="password"/>
+			<input type="submit" value="login"/>
+			<p><a href="">Forgot your password?</a></p>
 		</header>	
 	';
 	
