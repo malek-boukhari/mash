@@ -31,8 +31,8 @@ padding:20px 40px 20px 40px;
 	text-align: center;
 	color:#c0c0c0;
 	background-color: #999999;
-	border-top: solid  1px;
-	border-bottom: solid  1px;
+	border-top: 1px solid  ;
+	border-bottom: 1px solid  ;
 	border-color: black;
 }
 
@@ -52,8 +52,8 @@ a:HOVER{
 .button {
     background-color: #efefef;
     color: black;
-    border-bottom: 2px solid #555555;
-    border-right: 1px solid #555555;
+    border-bottom: 4px solid #555555;
+    border-right: 0.5px solid #555555;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -81,9 +81,9 @@ a:HOVER{
 	display: block;
 	height:100px;
 	background-color: #cccccc;
-	border-top: solid  1px;
-	border-bottom: solid  1px;
-	border-color: black;
+	border-top: 1px solid  ;
+	border-bottom: 4px solid  ;	
+	border-color: #4c4c4c;
 }
 
 #recherche{
