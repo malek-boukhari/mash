@@ -31,6 +31,9 @@ padding:20px 40px 20px 40px;
 	text-align: center;
 	color:#c0c0c0;
 	background-color: #999999;
+	border-top: solid  1px;
+	border-bottom: solid  1px;
+	border-color: black;
 }
 
 #menu{
@@ -78,6 +81,7 @@ a:HOVER{
 	display: block;
 	height:100px;
 	background-color: #cccccc;
+	border-top: solid  1px;
 	border-bottom: solid  1px;
 	border-color: black;
 }
