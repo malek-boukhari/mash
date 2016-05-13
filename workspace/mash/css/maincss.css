@@ -11,13 +11,20 @@ body {
 	color:white;
 }
 
-
+ #ad_button {
+ 	position:relative;
+ 	margin-top:20px;
+ 	height:7px;
+	background-color: #ffff;
+	text-align:left;
+	display:block;
+ }
+ 
  #banner {
- position:relative;
- margin-top:20px;
-height:100px;
-padding:20px 40px 20px 40px;
-
+ 	position:relative;
+ 	margin-top:20px;
+ 	height:100px;
+	padding:20px 40px 20px 40px;
 	background-color: #ffff;
 	text-align: center;
 	display:table-cell;
@@ -102,7 +109,7 @@ a:HOVER{
 }
 
 #button {
-    background-color: #c0c0c0;
+    background-color: #C2F732;
     color: black;
     height:30px;
     border-bottom: 2px solid #555555;

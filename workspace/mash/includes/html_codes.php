@@ -3,6 +3,9 @@
 //<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
 function headerCode(){
 	echo'
+			<div id="ad_button">
+			<a class="button" href="">Create a new ad</a>
+			</div>
 			<div id="banner">
 				<div id="IDlogin">
 					<form align="right"><input type="text" placeholder="username"/>
