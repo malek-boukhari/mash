@@ -3,8 +3,8 @@
 //<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
 function headerCode(){
 	echo'
-			<div id="ad_button">
-			<a class="button" href="">Create a new ad</a>
+			<div id="announce_button">
+				<td><a class="button" href="">Create a new ad</a></td>
 			</div>
 			<div id="banner">
 				<div id="IDlogin">
