@@ -33,7 +33,7 @@ function headerCode(){
 	<div id=\"top_search\">
 	<form id=\"recherche\" name=\"input\" action=\"\" method=\"get\">
 	<input type=\"text\" id=\"keywords\" name=\"keywords\" size=\"100\"  class=\"searchBox\" value=\"\"> &nbsp;
-	<select id=\"category\" name=\"category\" class=\"searchBox\">
+	<select id=\"button\" name=\"category\" class=\"searchBox\">
 	";
 	//include categories here
 	createCategoryList();
