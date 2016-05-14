@@ -25,6 +25,7 @@ function headerCode(){
 					<td><a class="button" href="collectibles.php">Collectibles</a></td>
 					<td><a class="button" href="collectibles.php">Other</a></td>
 					<td><a class="button" href="login.php">login</a></td>
+					<td><a class="button" href="register.php">register</a></td>
 				</div>
 			</div>
 	';
