@@ -11,20 +11,20 @@ body {
 	color:white;
 }
 
- #highBanner {
+ #highBanner { /*banner surrounding the button */
  	padding:20px;
  	background-color: red;
     border-bottom: 4px solid #555555;
  }
  
- #banner {
+ #banner { /*banner surrounding the login space */
  	height:100px;
 	padding:20px 60px 20px 40px;
 	background-color: #ffff;
 	display: list-item;
 }
 
-#main_footer{
+#main_footer{ /*footer of the website */
 	margin-top:600px;
 	padding-buttom: 20px;
 	clear: both;
@@ -37,7 +37,7 @@ body {
 	border-color: black;
 }
 
-#announceButton{
+#announceButton{/*create announce button */
 	margin-left: 20px;
 	background-color:blue; 
 	padding: 20px;
@@ -51,7 +51,7 @@ a:HOVER{
 	color:white;
 }
 
-#top_search{
+#top_search{/*banner surrounding the search area*/
 	margin-top: 10px; /*margin from banner*/
 	padding: 15px;
 	display: block;
@@ -62,7 +62,7 @@ a:HOVER{
 	border-color: #4c4c4c;
 }
 
-#recherche{
+#recherche{/*search bar field*/
 	padding-top:30px;
 	height:35px;
 }
@@ -77,7 +77,7 @@ a:HOVER{
 	height:25px;
 }
 
-.button {
+.button { /*menu and create ad buttons */
     background-color: #efefef;
     color: black;
     border: 0.5px solid #555555;
@@ -103,7 +103,7 @@ a:HOVER{
 	top: 3px;
 }	
 
-#button {
+#button { /*search,register and login buttons */
     background-color: red;
     color: white;
     height:30px;
