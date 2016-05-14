@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include("includes/connect.php");
+include("includes/createConnection.php");
 include("includes/html_codes.php");
 $x = $_GET['x'];
 function createMessage($x){
@@ -46,12 +46,12 @@ function createMessage($x){
 <html lang="en">
 <head>
 	<title>Prompt</title>
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/maincss.css">
 	<link rel="stylesheet" href="css/prompt.css">
 </head>
 <body>
 	<div id="wrapper">
-		<?php headerAndSearchCode(); ?>
+		<?php headerCode(); ?>
 
 			<div id="outer">
 				<div id="inner">
