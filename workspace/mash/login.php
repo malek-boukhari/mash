@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include("includes/connect.php");
+include("includes/createConnection.php");
 include("includes/html_codes.php");
 if( isset($_SESSION['user_id']) ){
 	header('Location:account_itemsactive.php');
