@@ -2,8 +2,8 @@
 //fuction header() we call everytime we have a new page
 function headerCode(){
 	echo'
-			<div id="announce_button">
-				<td><a class="button" href="">Create a new ad</a></td>
+			<div id="highBanner">
+				<div id="announceButton" align="right"><a class="button" href="">Create a new ad</a></div>
 			</div>
 			<div id="banner">
 				<div id="IDlogin">
