@@ -22,7 +22,6 @@ body {
  	height:100px;
 	padding:20px 60px 20px 40px;
 	background-color: #ffff;
-	text-align: center;
 	display: list-item;
 }
 
@@ -43,15 +42,13 @@ a{
 	color:#c0c0c0;
 }
 
-
 a:HOVER{
 	color:white;
 }
 
-
 #top_search{
 	margin-top: 10px; /*margin from banner*/
-	padding: 15px 10px 5px 10px;
+	padding: 15px;
 	display: block;
 	height:100px;
 	background-color: #cccccc;
