@@ -35,8 +35,8 @@ if(isset($_POST['submit'])){
 			if(!$result2){
 				die('Could not insert into database: '.mysql_error());
 			}else{
-				$message = "To activate your account, please click on this link: \n\n";
-				$message.= "http://localhost:8080/lisa".'/activate.php?email='.urlencode($email)."&key=$activation";
+				$message = "To activate your account,  DONT GIVE A FUCK and please click on this link: \n\n";
+				$message.= "http://localhost:8888/mash/workspace/mash/activate.php".'/activate.php?email='.urlencode($email)."&key=$activation";
 				mail($email, 'Registration Confirmation', $message);
 				header('Location: prompt.php?x=1');
 			}
