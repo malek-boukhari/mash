@@ -53,7 +53,6 @@ if(isset($_POST['submit'])){
 	<div id="wrapper">
 		<?php headerCode(); ?>
 		<aside id="left_side">
-			<img src="images/loginbanner.png" />
 		</aside>
 		<section id="right_side">
 			<form id="generalform" class="container" method="POST" action="">
