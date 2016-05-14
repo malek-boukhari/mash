@@ -1,6 +1,5 @@
 <?php
 //fuction header() we call everytime we have a new page
-//<h1><a href="index.php"><img src= "css/images/smob.jpeg"</a></h1>
 function headerCode(){
 	echo'
 			<div id="announce_button">
@@ -11,8 +10,10 @@ function headerCode(){
 					<form align="right"><input type="text" placeholder="username"/>
 					<input type="text" placeholder="password"/>
 					<input type="submit" id ="button" value="login"/>
+					<input type="submit" id ="button" value="register"/>
 				</div>
-				<div id="menu">
+			<br>
+				<div>
 					<td><a class="button" href="following.php">Following</a></td>
 					<td><a class="button" href="today.php">Today</a></td>
 					<td><a class="button" href="fashion.php">Fashion</a></td>
@@ -23,6 +24,7 @@ function headerCode(){
 					<td><a class="button" href="home.php">Home</a></td>
 					<td><a class="button" href="collectibles.php">Collectibles</a></td>
 					<td><a class="button" href="collectibles.php">Other</a></td>
+					<td><a class="button" href="login.php">login</a></td>
 				</div>
 			</div>
 	';

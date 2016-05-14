@@ -1,5 +1,8 @@
 <?php 
-include ('includes/html_codes.php');
+session_start();
+include("includes/connect.php");
+include("includes/html_codes.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +14,7 @@ include ('includes/html_codes.php');
 <body>
 	<div id='pages'>
 		<?php headerCode();?>
+
 		<?php footerCode();?>
 	</div>
 </body>
