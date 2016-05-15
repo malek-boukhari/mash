@@ -37,7 +37,7 @@ if(isset($_POST['submit'])){
 			}else{
 				$message = "To activate your account,  DONT GIVE A FUCK and please click on this link: \n\n";
 				$message.= "http://localhost:8888/mash/workspace/mash/activate.php".'/activate.php?email='.urlencode($email)."&key=$activation";
-				mail($email, 'Registration Confirmation', $message);
+				mail($email, 'Confirming resgitration', $message);
 				header('Location: prompt.php?x=1');
 			}
 		}else{
