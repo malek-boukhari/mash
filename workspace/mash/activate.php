@@ -1,12 +1,11 @@
 <?php 
 include("includes/createConnection.php");
-/*if(isset($_GET['email']) && (filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) ){
+if(isset($_GET['email']) && (filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) ){
 	$email = mysqli_real_escape_string($mysql_connect, $_GET['email']);
 }
 if(isset($_GET['key']) && (strlen($_GET['key'])==32) ){
 	$key = mysqli_real_escape_string($mysql_connect, $_GET['key']);
-}*/
-
+}
 if(isset($email) && isset($key)){
 	$result = mysqli_query($mysql_connect, "SELECT * FROM tempusers WHERE (email='$email' AND activation='$key') LIMIT 1 ") or die(mysql_error());
 	while($row = mysqli_fetch_array($result)){
