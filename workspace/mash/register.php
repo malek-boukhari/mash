@@ -79,6 +79,7 @@ if(isset($_POST['submit'])){
 					<label for="email">Email:</label>
 					<input type="text" class="input" id="email" name="email" maxlength="80"/>
 				</div>
+				
 				<div class="field">
 					<label for="password">Password:</label>
 					<input type="password" class="input" id="password" name="password" maxlength="20"/>
