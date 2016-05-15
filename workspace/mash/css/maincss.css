@@ -13,7 +13,7 @@ body {
 
  #highBanner { /*banner surrounding the button */
  	padding:20px;
- 	background-color: red;
+ 	background-color: #ff5745;
     border-bottom: 4px solid #555555;
  }
  
@@ -39,7 +39,7 @@ body {
 
 #announceButton{/*create announce button */
 	margin-left: 20px;
-	background-color:red; 
+	background-color: #ff5745; 
 	padding: 20px;
 }
 
@@ -78,7 +78,7 @@ a:HOVER{
 }
 
 .button { /*menu and create ad buttons */
-    background-color: #efefef;
+    background-color: white;
     color: black;
     border: 0.5px solid #555555;
     border-bottom: 4px solid #555555;
@@ -104,7 +104,7 @@ a:HOVER{
 }	
 
 #button { /*search,register and login buttons */
-    background-color: red;
+    background-color: #6971fb;
     color: white;
     height:30px;
     border-bottom: 2px solid #555555;
