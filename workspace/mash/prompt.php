@@ -50,15 +50,10 @@ function createMessage($x){
 	<link rel="stylesheet" href="css/prompt.css">
 </head>
 <body>
-	<div id="wrapper">
 		<?php headerCode(); ?>
-
-			<div id="outer">
-				<div id="inner">
+				<div id="button">
 					<?php createMessage($x); ?>
 				</div>
-			</div>
 		<?php footerCode(); ?>
-	</div>
 </body>
 </html>

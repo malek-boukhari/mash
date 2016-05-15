@@ -1,4 +1,5 @@
 <?php 
+ob_start();
 session_start();
 include("includes/createConnection.php");
 include("includes/html_codes.php");
@@ -38,7 +39,7 @@ if(isset($_POST['submit'])){
 				$message = "To activate your account,  DONT GIVE A FUCK and please click on this link: \n\n";
 				$message.= "http://localhost:8888/mash/workspace/mash/activate.php".'/activate.php?email='.urlencode($email)."&key=$activation";
 				mail($email, 'Confirming resgitration', $message);
-				header('Location: prompt.php?x=1');
+				header('Location:prompt.php?x=1');
 			}
 		}else{
 			header('Location: prompt.php?x=2');
